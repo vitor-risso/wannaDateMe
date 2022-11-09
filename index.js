@@ -20,7 +20,10 @@ function change(){
 function changeA() {
   const gif = document.querySelector(".yesClick")
   
+
   a.style.visibility = "hidden"
   b.style.visibility = "hidden"
   gif.style.visibility = "visible"
+  document.body.style.backgroundImage = "url('./assets/aaaa.gif')"
+  document.body.style.backgroundSize="cover"
 }
