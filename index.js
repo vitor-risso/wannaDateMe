@@ -18,7 +18,7 @@ function change(){
 }
 
 function changeA() {
-  const gif = document.querySelector(".yesClick")
+  const gif = document.querySelector(".yesClick")  
   
 
   a.style.visibility = "hidden"
